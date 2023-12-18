@@ -3,7 +3,7 @@
         'name' => 'wadi/ejet',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'b894cf6eb4b69bc1596037858859ddda6f9d201e',
+        'reference' => '0e66bc04334657052331490dd00bf5d0c89188b5',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'wadi/ejet' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'b894cf6eb4b69bc1596037858859ddda6f9d201e',
+            'reference' => '0e66bc04334657052331490dd00bf5d0c89188b5',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

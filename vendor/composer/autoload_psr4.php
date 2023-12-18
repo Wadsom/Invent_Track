@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'src\\' => array($baseDir . '/Back_End/src'),
+    'assest\\' => array($baseDir . '/Front_End'),
 );

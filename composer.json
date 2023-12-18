@@ -3,7 +3,8 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "src\\": "Back_End/src/"
+            "src\\": "Back_End/src/",
+            "assest\\": "Front_End/"
         }
     },
     "authors": [

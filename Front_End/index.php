@@ -1,13 +1,18 @@
 <?php
-
-
-
-if(@$_GET['pagina'] != ""){
-	$pagina = @$_GET['pagina'];
-}else{
-	$pagina = 'home';
-}
-
+require __DIR__ ."/../vendor/autoload.php";
+use src\database\Connect as DbConnect;
+use src\Serv\LoginService as LoginUser;
+////$senha = '123456';
+////$senha_crip = md5($senha);
+////$pdo = DbConnect::getInstance()->prepare('INSERT into usuarios SET empresa ="0", name ="admin_wadson", cpf = "895.255.236-00", email = "pinheirowadson@gmail.com", senha ="$senha",senha_crip = "$senha_crip", ativo="sim", foto= "sem-foto.png", nivel= "SAS" ');
+//if(@$_GET['pagina'] != ""){
+//	$pagina = @$_GET['pagina'];
+//}else{
+//	$pagina = 'home';
+//}
+////$pdo->execute();
+//$login = new LoginUser;
+//$login->logando();
 
 
 ?>

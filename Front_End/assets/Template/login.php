@@ -1,3 +1,17 @@
+
+<?php
+
+require __DIR__ . "/../../vendor/autoload.php";
+use src\Serv\LoginService as LoginUser;
+//if(@$_GET['pagina'] != ""){
+//    $pagina = @$_GET['pagina'];
+//}else{
+//    $pagina = 'home';
+//}
+////$pdo->execute();
+//$login = new LoginUser;
+//$login->logando();
+?>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -10,20 +24,12 @@
 <link rel="stylesheet" href="./../css/Login.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <div class="main">
-<?=
 
-
-   public string $wadsomn;
-
-
-
-
-?>
 
     <div class="container">
         <center>
-            <div class="logo">Foto Logo
-                <img src="./../images/transferir.jpg " width="300px">
+            <div class="logo-mobile">
+                <img src="./../images/img-logo.png " width="300px">
                 <link rel="stylesheet" href="./../images/sem-foto.jpg">
                 <div class="clearfix"></div>
             </div>
@@ -31,7 +37,7 @@
                 <div id="login">
 
 
-                    <form action="javascript:void(0);" method="get">
+                    <form action="/./Back_End/src/Service/LoginService.php" method="get">
 
                         <fieldset class="clearfix">
 
