@@ -1,0 +1,17 @@
+{
+    "name": "wadi/ejet",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "src\\": "Back_End/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wadson",
+            "email": "pinheirowadson@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
